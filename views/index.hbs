@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    {{!-- INPUT FORM START FROM HERE --}}
+    <div class="container signupcontainer">
+        <div class="row secondcontainer">
+            {{!-- Form action start form here --}}
+            <form action="/" method="post">
+            <h4 class="text-center fw-bold text-light">SIGN UP HERE</h4>
+            <div class="row mt-4">
+            <input type="text" placeholder="Enter your full Name" name="fullname">
+            </div>
+            <div class="row mt-4">
+            <input type="text" placeholder="Enter your E-mail" name="fullemail">
+            </div>
+            <div class="row mt-4">
+            <input type="text" placeholder="Enter your Mobile Number" name="fullmobileno">
+            </div>
+            <div class="row mt-4">
+            <input type="password" placeholder="Enter your Password" name="fullpassword">
+            </div>
+            <div class="row mt-4">
+            <input class="mx-auto" type="text" placeholder="Enter your Confirm Password" name="fullconfirm">
+            </div>
+            <div class="row mt-4">
+                <button type="submit">Sign UP</button>
+            </div>
+            </form>
+        </div>
+    </div>
+    {{!-- INPUT FORM END FROM HERE --}}
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>  
+</body>
+</html>
